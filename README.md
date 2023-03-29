@@ -16,7 +16,7 @@ Back-end приложение, которое имеет RESTful HTTP метод
 
 ## Настройка
 Для сохранения базы данных в памяти необходимо дополнить файл application.properties в строке url:
-```spring.datasource.url=jdbc:h2:mem:testdbDB_CLOSE_ON_EXIT=FALSE```
+```spring.datasource.url=jdbc:h2:mem:testdb;DB_CLOSE_ON_EXIT=FALSE```
 
 ## Экплуатация
 Скомпилированный файл jar запустить на целевом компьютере или сервере с JVM.
